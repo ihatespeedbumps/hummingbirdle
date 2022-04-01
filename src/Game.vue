@@ -75,7 +75,7 @@ function completeRow() {
     const guess = currentRow.map((tile) => tile.letter).join('')
     if (!allWords.includes(guess) && guess !== answer) {
       shake()
-      showMessage(`Not in word list`)
+      showMessage(`Not in bird list`)
       return
     }
 
@@ -134,7 +134,7 @@ function completeRow() {
     }
   } else {
     shake()
-    showMessage('Not enough letters')
+    showMessage('Not long enough')
   }
 }
 
