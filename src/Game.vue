@@ -181,10 +181,10 @@ function genResultGrid() {
   <header>
     <h1>HUMMINGBIRDLE</h1>
     <a
-      id="credit"
+      id="source-link"
       href="https://github.com/yyx990803/vue-wordle"
       target="_blank"
-      >Source</a
+      >Credit</a
     >
   </header>
   <div id="board">
