@@ -5148,6 +5148,6 @@ const answers = [
 'A1316'
 ]
 
-const allowedGuesses = []
+const allowedGuesses = answers
 
 export const allWords = [...answers, ...allowedGuesses]
