@@ -11,9 +11,9 @@ defineEmits<{
 
 const rows = [
   '1234567890'.split(''),
-  'qwertyuiop'.split(''),
-  'asdfghjkl'.split(''),
-  ['Enter', ...'zxcvbnm'.split(''), 'Backspace']
+  'QWERTYUIOP'.split(''),
+  'ASDFGHJKL'.split(''),
+  ['Enter', ...'ZXCVBNM'.split(''), 'Backspace']
 ]
 </script>
 
