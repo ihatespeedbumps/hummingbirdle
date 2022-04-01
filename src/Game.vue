@@ -180,6 +180,12 @@ function genResultGrid() {
   </Transition>
   <header>
     <h1>HUMMINGBIRDLE</h1>
+    <a
+      id="credit"
+      href="https://github.com/yyx990803/vue-wordle"
+      target="_blank"
+      >Source</a
+    >
   </header>
   <div id="board">
     <div
